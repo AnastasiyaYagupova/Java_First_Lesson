@@ -4,8 +4,8 @@ import java.util.stream.Stream;
 public class Example001 {
     public static void main(String[] args){
     String s = new String("the sky is blue");
-    //reverseWord(s);
-    //reverseWord2(s);
+    reverseWord(s);
+    reverseWord2(s);
     reverseWord3(s);
     }
     public static void reverseWord(String s){
